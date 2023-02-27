@@ -1,0 +1,191 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.header{
+    background-image: url(./images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 75vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 200px;
+    align-content: center;
+    background-size: cover;
+    margin-bottom: 250px;
+}
+
+.header h1{
+    font-size: 32px;
+}
+
+.nav-container .nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.nav-container .nav .nav-item{
+    padding: 4px 20px;
+}
+
+#selected{
+    border-radius: 18px;
+    border: 1px solid rgb(133, 34, 34);
+    padding: 4px 20px;
+    background-color: rgb(133, 34, 34);
+    color: white;
+}
+
+.book{
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book .headers h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.book .headers h3{
+    font-size: 20px;
+}
+
+#explore-homes{
+    width: 160px;
+    border-radius: 18px;
+    border: 1px solid rgb(133, 34, 34);
+    padding: 4px 20px;
+    background-color: rgb(133, 34, 34);
+    color: white;
+    font-size: 16px;
+}
+
+.main{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.main .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.main .sub-title{
+    font-size:  16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cards button{
+    font-size: 16px;
+    padding: 10px 26px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 22px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.cards .card .img-wrapper img{
+    height: 400px;
+    width: 474.33px;
+}
+
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    overflow: hidden;
+}
+
+.cards .card .desc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.btn{
+    margin-bottom: 100px;
+}
+
+.card-title{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.footer .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.footer .container .icon-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .container .icon-container .icons{
+    display: flex;
+    gap: 12px;
+}
+
+.footer .container .icon-container .title-icons{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.footer .center{
+    display: flex;
+    gap: 100px;
+}
+
+.footer .container .center .list .list-item{
+    margin-bottom: 15px;
+}
+
+.footer .container .footer-title{
+    font-size: 32px;
+}
